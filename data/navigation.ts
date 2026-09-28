@@ -176,5 +176,5 @@ export const ctaNavigation = {
 
 export const whatsappCta = {
   label: "Consultar por WhatsApp",
-  href: "https://wa.me/521234567890?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20y%20programas%20disponibles",
+  href: "https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20y%20programas%20disponibles",
 };

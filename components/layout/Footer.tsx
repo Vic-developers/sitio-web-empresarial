@@ -25,15 +25,15 @@ export function Footer() {
                 <span>contacto@skillupsacademy.com</span>
               </a>
               <a
-                href="tel:+521234567890"
+                href="tel:+18495774524"
                 className="flex items-center gap-3 text-slate-400 hover:text-teal-400 transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                <span>+52 (123) 456-7890</span>
+                <span>+1 (849) 577-4524</span>
               </a>
               <div className="flex items-center gap-3 text-slate-400">
                 <MapPin className="w-5 h-5" />
-                <span>Ciudad de México, México</span>
+                <span>Santo Domingo, República Dominicana</span>
               </div>
             </div>
           </div>

@@ -85,9 +85,14 @@ export default function RootLayout({
     "logo": `${process.env.NEXT_PUBLIC_SITE_URL || "https://skillupsacademy.com"}/logo/logo.png`,
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+52-123-456-7890",
+      "telephone": "+1-849-577-4524",
       "contactType": "customer service",
       "availableLanguage": ["Spanish", "English"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Santo Domingo",
+      "addressCountry": "DO"
     },
     "sameAs": [
       "https://www.facebook.com/skillupsacademy",

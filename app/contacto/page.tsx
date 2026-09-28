@@ -45,7 +45,7 @@ export default function ContactoPage() {
               </h2>
               <div className="space-y-6">
                 <a
-                  href="https://wa.me/521234567890"
+                  href="https://wa.me/18495774524"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 rounded-xl bg-white border border-slate-200 hover:border-teal-300 transition-colors"

@@ -52,7 +52,7 @@ const universes = [
 ];
 
 const needs = [
-  { id: "aprender", label: "Quiero aprender", solutions: ["Cursos", "Diplomados", "Certificaciones"], href: "https://wa.me/521234567890?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles" },
+  { id: "aprender", label: "Quiero aprender", solutions: ["Cursos", "Diplomados", "Certificaciones"], href: "https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles" },
   { id: "capacitar", label: "Quiero capacitar a mi equipo", solutions: ["Capacitación empresarial", "Programas personalizados"], href: "/academy/capacitacion-empresarial" },
   { id: "plataforma", label: "Quiero crear una plataforma", solutions: ["LMS", "Desarrollo web", "Sistemas a medida"], href: "/tech" },
   { id: "automatizar", label: "Quiero automatizar procesos", solutions: ["Automatización", "Workflows", "Integraciones"], href: "/automation" },
@@ -236,7 +236,7 @@ export default function HomePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://wa.me/521234567890?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
+                    href="https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

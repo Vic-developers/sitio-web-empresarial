@@ -180,7 +180,7 @@ export function Header() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/521234567890?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
+              href="https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-md text-green-600 hover:bg-green-50 transition-colors"
@@ -239,7 +239,7 @@ export function Header() {
             ))}
             <div className="pt-4 space-y-3">
               <a
-                href="https://wa.me/521234567890?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
+                href="https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary btn-md w-full flex items-center justify-center gap-2"
