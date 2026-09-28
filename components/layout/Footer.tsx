@@ -1,7 +1,15 @@
 import Link from "next/link";
 import { footerNavigation } from "@/data/navigation";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, Youtube, Music2 } from "lucide-react";
 import { Logo } from "./Logo";
+
+const socialLinks = [
+  { icon: Instagram, href: "https://instagram.com/skillupsacademy", label: "Instagram" },
+  { icon: Linkedin, href: "https://linkedin.com/company/skillupsacademy", label: "LinkedIn" },
+  { icon: Facebook, href: "https://facebook.com/skillupsacademy", label: "Facebook" },
+  { icon: Music2, href: "https://tiktok.com/@skillupsacademy", label: "TikTok" },
+  { icon: Youtube, href: "https://youtube.com/@skillupsacademy", label: "YouTube" },
+];
 
 export function Footer() {
   return (
@@ -34,6 +42,28 @@ export function Footer() {
               <div className="flex items-center gap-3 text-slate-400">
                 <MapPin className="w-5 h-5" />
                 <span>Santo Domingo, República Dominicana</span>
+              </div>
+            </div>
+
+            {/* Redes Sociales */}
+            <div className="mt-6">
+              <h4 className="text-sm font-semibold text-slate-300 mb-3">Síguenos</h4>
+              <div className="flex gap-3">
+                {socialLinks.map((social) => {
+                  const Icon = social.icon;
+                  return (
+                    <a
+                      key={social.label}
+                      href={social.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={social.label}
+                      className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-teal-600 hover:text-white transition-all duration-300"
+                    >
+                      <Icon className="w-5 h-5" />
+                    </a>
+                  );
+                })}
               </div>
             </div>
           </div>
