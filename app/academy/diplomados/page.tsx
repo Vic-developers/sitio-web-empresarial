@@ -5,7 +5,7 @@ import { Card } from "@/components/ui/Card";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
-import { Award, Clock, Users, ArrowRight } from "lucide-react";
+import { Award, Clock, Users } from "lucide-react";
 import Link from "next/link";
 
 export const metadata: Metadata = {

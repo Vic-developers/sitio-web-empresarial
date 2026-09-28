@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
-import { SectionHeader } from "@/components/ui/SectionHeader";
+
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { Badge } from "@/components/ui/Badge";

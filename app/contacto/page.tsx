@@ -3,21 +3,14 @@ import { Section } from "@/components/ui/Section";
 import { Container } from "@/components/ui/Container";
 import { ContactForm } from "@/components/forms/ContactForm";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
-import { Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { Mail, MapPin, MessageCircle } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contacto | Hablar con SkillUps",
   description: "Contacta a SkillUps Academy. WhatsApp, correo, redes sociales. Estamos listos para ayudarte.",
 };
 
-const contactOptions = [
-  { label: "Soy estudiante", value: "estudiante" },
-  { label: "Soy empresa", value: "empresa" },
-  { label: "Necesito tecnología", value: "tecnologia" },
-  { label: "Necesito automatización", value: "automatizacion" },
-  { label: "Necesito consultoría", value: "consultoria" },
-  { label: "Tengo otro proyecto", value: "otro" },
-];
+
 
 export default function ContactoPage() {
   return (

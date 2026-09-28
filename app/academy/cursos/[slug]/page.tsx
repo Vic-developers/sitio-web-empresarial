@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/Badge";
 import { Button } from "@/components/ui/Button";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
 import { Accordion } from "@/components/ui/Accordion";
-import { courses, getCourseBySlug } from "@/data/courses";
+import { getCourseBySlug } from "@/data/courses";
 import Link from "next/link";
 import { Clock, Users, Award, Calendar, CheckCircle } from "lucide-react";
 

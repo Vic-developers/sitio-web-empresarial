@@ -3,7 +3,7 @@ import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
-import { Target, Eye, Heart, Users, Lightbulb, Shield } from "lucide-react";
+import { Heart, Users, Lightbulb, Shield } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Nosotros | Quiénes Somos",

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Calculator, TrendingUp, Users, Clock, DollarSign } from "lucide-react";
+import { Calculator, Clock, DollarSign } from "lucide-react";
 
 export function ROICalculator() {
   const [employees, setEmployees] = useState(10);

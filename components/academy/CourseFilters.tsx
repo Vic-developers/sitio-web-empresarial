@@ -1,6 +1,5 @@
 "use client";
 
-import { cn } from "@/lib/utils";
 import { Search, Filter } from "lucide-react";
 import { useState } from "react";
 import { courseCategories } from "@/data/courses";

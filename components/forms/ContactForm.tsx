@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/Button";
 import { useState } from "react";
-import { Send, CheckCircle, AlertCircle, Loader2 } from "lucide-react";
+import { Send, CheckCircle, AlertCircle } from "lucide-react";
 
 export interface ContactFormProps {
   variant?: "default" | "compact" | "b2b";
