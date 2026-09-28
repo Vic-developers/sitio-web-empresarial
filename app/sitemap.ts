@@ -16,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/tech/sistemas-a-medida",
     "/tech/lms",
     "/tech/integraciones",
+    "/tech/e-learning",
     "/automation",
     "/automation/procesos",
     "/automation/workflows",
@@ -36,10 +37,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/casos",
     "/recursos",
     "/blog",
+    "/blog/guia-automatizacion-empresarial",
+    "/blog/moodle-vs-canvas",
     "/nosotros",
     "/contacto",
     "/solicitar-propuesta",
     "/empresas",
+    "/privacidad",
+    "/terminos",
+    "/cookies",
+    "/gracias",
   ];
 
   return routes.map((route) => ({
