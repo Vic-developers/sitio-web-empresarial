@@ -74,12 +74,12 @@ export default function TechPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/solicitar-propuesta">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Cuéntanos tu proyecto
+                  Impulsa tu Negocio
                 </Button>
               </Link>
               <Link href="/tech/desarrollo-web">
                 <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5">
-                  Ver servicios
+                  Ver Soluciones
                 </Button>
               </Link>
             </div>

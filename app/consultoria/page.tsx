@@ -61,12 +61,12 @@ export default function ConsultoriaPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/consultoria/transformacion-digital">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Solicitar diagnóstico
+                  Solicita tu Diagnóstico Gratuito
                 </Button>
               </Link>
               <Link href="/consultoria/organizacional">
                 <Button variant="outline" size="lg">
-                  Ver servicios
+                  Ver Soluciones
                 </Button>
               </Link>
             </div>

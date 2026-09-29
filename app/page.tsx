@@ -305,12 +305,12 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/solicitar-propuesta">
               <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                Solicitar propuesta
+                Solicita tu Diagnóstico Gratuito
               </Button>
             </Link>
             <Link href="/contacto">
               <Button variant="outline" size="lg" className="border-white/20 text-white hover:bg-white/5">
-                Hablar con un asesor
+                Habla con un Experto
               </Button>
             </Link>
           </div>

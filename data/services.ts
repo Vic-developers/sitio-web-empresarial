@@ -21,7 +21,7 @@ export const services: Service[] = [
   {
     id: "cursos",
     slug: "cursos",
-    title: "Cursos",
+    title: "Habilidades que Generan Resultados",
     shortTitle: "Cursos",
     description: "Formación práctica en habilidades demandadas por el mercado laboral actual.",
     longDescription: "Nuestros cursos están diseñados para desarrollar competencias específicas con metodologías prácticas y aplicables al mundo real.",
@@ -39,7 +39,7 @@ export const services: Service[] = [
       "Soporte continuo",
       "Comunidad activa",
     ],
-    cta: "Ver cursos",
+    cta: "Comienza tu Transformación",
     ctaHref: "/academy/cursos",
   },
   {
@@ -69,7 +69,7 @@ export const services: Service[] = [
   {
     id: "capacitacion-empresarial",
     slug: "capacitacion-empresarial",
-    title: "Capacitación Empresarial",
+    title: "Transforma tu Talento",
     shortTitle: "Capacitación Empresarial",
     description: "Programas de formación diseñados para las necesidades específicas de tu organización.",
     longDescription: "Desarrollamos programas de capacitación a medida que responden a los objetivos estratégicos de tu empresa.",
@@ -87,7 +87,7 @@ export const services: Service[] = [
       "Flexibilidad total",
       "Soporte dedicado",
     ],
-    cta: "Solicitar programa empresarial",
+    cta: "Impulsa tu Equipo",
     ctaHref: "/academy/capacitacion-empresarial",
   },
   {
@@ -143,7 +143,7 @@ export const services: Service[] = [
   {
     id: "desarrollo-web",
     slug: "desarrollo-web",
-    title: "Desarrollo Web",
+    title: "Tu Negocio en Línea",
     shortTitle: "Desarrollo Web",
     description: "Sitios web y aplicaciones que impulsan tu presencia digital.",
     longDescription: "Creamos experiencias web modernas, rápidas y optimizadas para convertir visitantes en clientes.",
@@ -169,7 +169,7 @@ export const services: Service[] = [
       { step: "Lanzamiento", description: "Desplegamos y monitoreamos" },
       { step: "Mantenimiento", description: "Soporte y mejoras continuas" },
     ],
-    cta: "Solicitar proyecto",
+    cta: "Impulsa tu Presencia Digital",
     ctaHref: "/tech/desarrollo-web",
   },
   {
@@ -249,7 +249,7 @@ export const services: Service[] = [
   {
     id: "automatizacion-procesos",
     slug: "automatizacion-procesos",
-    title: "Automatización de Procesos",
+    title: "Libera el Potencial de tu Equipo",
     shortTitle: "Automatización",
     description: "Optimiza tus operaciones mediante inteligencia y automatización.",
     longDescription: "Identificamos y automatizamos procesos repetitivos para que tu equipo se enfoque en lo que realmente importa.",
@@ -267,7 +267,7 @@ export const services: Service[] = [
       "Eficiencia operativa",
       "Escalabilidad",
     ],
-    cta: "Automatizar mi proceso",
+    cta: "Automatiza y Crece",
     ctaHref: "/automation/procesos",
   },
   {
@@ -323,7 +323,7 @@ export const services: Service[] = [
   {
     id: "marketing-digital",
     slug: "marketing-digital",
-    title: "Marketing Digital",
+    title: "Clientes que Encuentran",
     shortTitle: "Marketing Digital",
     description: "Estrategias digitales que conectan con tu audiencia.",
     longDescription: "Desarrollamos estrategias de marketing digital que generan resultados medibles y sostenibles.",
@@ -341,7 +341,7 @@ export const services: Service[] = [
       "ROI medible",
       "Crecimiento sostenible",
     ],
-    cta: "Impulsar mi negocio",
+    cta: "Atrae más Clientes",
     ctaHref: "/growth/marketing-digital",
   },
   {
@@ -421,7 +421,7 @@ export const services: Service[] = [
   {
     id: "consultoria-organizacional",
     slug: "consultoria-organizacional",
-    title: "Consultoría Organizacional",
+    title: "Organizaciones que Funcionan",
     shortTitle: "Consultoría Organizacional",
     description: "Optimizamos la estructura y cultura de tu organización.",
     longDescription: "Acompañamos a tu organización en la mejora de procesos, estructura y cultura organizacional.",
@@ -439,7 +439,7 @@ export const services: Service[] = [
       "Estructura optimizada",
       "Crecimiento sostenible",
     ],
-    cta: "Solicitar diagnóstico",
+    cta: "Optimiza tu Organización",
     ctaHref: "/consultoria/organizacional",
   },
   {
@@ -495,7 +495,7 @@ export const services: Service[] = [
   {
     id: "diseno-grafico",
     slug: "diseno-grafico",
-    title: "Diseño Gráfico",
+    title: "Comunicación que Impacta",
     shortTitle: "Diseño Gráfico",
     description: "Comunicamos tu marca con diseño profesional.",
     longDescription: "Creamos piezas gráficas que comunican efectivamente los mensajes de tu marca.",
@@ -513,7 +513,7 @@ export const services: Service[] = [
       "Consistencia",
       "Impacto visual",
     ],
-    cta: "Ver diseño gráfico",
+    cta: "Impacta con tu Marca",
     ctaHref: "/creative/diseno-grafico",
   },
   {

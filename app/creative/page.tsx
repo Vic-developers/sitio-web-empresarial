@@ -61,12 +61,12 @@ export default function CreativePage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/creative/diseno-grafico">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Ver servicios
+                  Impacta con tu Marca
                 </Button>
               </Link>
               <Link href="/solicitar-propuesta">
                 <Button variant="outline" size="lg">
-                  Solicitar propuesta
+                  Solicita tu Propuesta
                 </Button>
               </Link>
             </div>

@@ -67,12 +67,12 @@ export default function GrowthPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/growth/marketing-digital">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Impulsar mi negocio
+                  Atrae más Clientes
                 </Button>
               </Link>
               <Link href="/growth/branding">
                 <Button variant="outline" size="lg">
-                  Ver servicios
+                  Ver Soluciones
                 </Button>
               </Link>
             </div>

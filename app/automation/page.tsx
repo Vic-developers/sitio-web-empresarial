@@ -70,12 +70,12 @@ export default function AutomationPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/automation/procesos">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Automatizar mi proceso
+                  Automatiza y Crece
                 </Button>
               </Link>
               <Link href="/automation/dashboards">
                 <Button variant="outline" size="lg">
-                  Ver dashboards
+                  Ver Dashboards
                 </Button>
               </Link>
             </div>

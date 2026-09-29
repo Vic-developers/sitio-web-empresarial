@@ -65,7 +65,7 @@ export default function AcademyPage() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/academy/capacitacion-empresarial">
                 <Button variant="primary" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
-                  Capacitación empresarial
+                  Impulsa tu Equipo
                 </Button>
               </Link>
               <a
@@ -74,7 +74,7 @@ export default function AcademyPage() {
                 rel="noopener noreferrer"
               >
                 <Button variant="outline" size="lg" icon={<MessageCircle className="w-5 h-5" />}>
-                  Consultar cursos por WhatsApp
+                  Consultar por WhatsApp
                 </Button>
               </a>
             </div>
