@@ -11,6 +11,7 @@ import { AnimatedStats } from "@/components/ui/AnimatedStats";
 import { WhySkillUps } from "@/components/ui/WhySkillUps";
 import { Accordion } from "@/components/ui/Accordion";
 import { Newsletter } from "@/components/ui/Newsletter";
+import { SocialProof, UrgencyBanner, GuaranteeBadge, SpotsCounter } from "@/components/ui/SocialProof";
 
 const universes = [
   {
@@ -234,6 +235,12 @@ export default function HomePage() {
                 <p className="text-gray-600 mb-6">
                   Consulta nuestro catálogo completo de cursos, talleres y diplomados directamente por WhatsApp. Te enviaremos toda la información y te ayudaremos a elegir el programa perfecto para ti.
                 </p>
+                <div className="mb-6">
+                  <GuaranteeBadge />
+                </div>
+                <div className="mb-6">
+                  <SpotsCounter total={20} enrolled={15} />
+                </div>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
                     href="https://wa.me/18495774524?text=Hola%2C%20me%20gustar%C3%ADa%20consultar%20los%20cursos%20disponibles"
