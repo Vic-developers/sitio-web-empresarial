@@ -43,6 +43,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/contacto",
     "/solicitar-propuesta",
     "/empresas",
+    "/aula-virtual",
     "/privacidad",
     "/terminos",
     "/cookies",

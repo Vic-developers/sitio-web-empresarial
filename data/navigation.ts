@@ -48,7 +48,11 @@ export const mainNavigation: NavItem[] = [
     ],
   },
   {
-    label: "Casos",
+    label: "Aula Virtual",
+    href: "/aula-virtual",
+  },
+  {
+    label: "Casos de Éxito",
     href: "/casos",
   },
   {
