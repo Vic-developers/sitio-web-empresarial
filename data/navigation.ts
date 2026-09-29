@@ -49,7 +49,7 @@ export const mainNavigation: NavItem[] = [
   },
   {
     label: "Aula Virtual",
-    href: "/aula-virtual",
+    href: "https://skillups.academy",
   },
   {
     label: "Casos de Éxito",
