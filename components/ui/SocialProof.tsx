@@ -89,16 +89,40 @@ export function UrgencyBanner() {
 }
 
 export function GuaranteeBadge() {
+  const guarantees = [
+    {
+      title: "Resultados Medibles",
+      description: "Cada programa incluye métricas claras de seguimiento y evaluación de impacto.",
+    },
+    {
+      title: "Soporte Continuo",
+      description: "Acompañamiento antes, durante y después de cada programa para garantizar el éxito.",
+    },
+    {
+      title: "Metodología Probada",
+      description: "Procesos documentados y optimizados que garantizan resultados consistentes.",
+    },
+  ];
+
+  const [currentGuarantee, setCurrentGuarantee] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentGuarantee((prev) => (prev + 1) % guarantees.length);
+    }, 4000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const guarantee = guarantees[currentGuarantee];
+
   return (
     <div className="flex items-center gap-3 p-4 bg-green-50 rounded-lg border border-green-100">
       <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
         <Award className="w-6 h-6 text-green-600" />
       </div>
       <div>
-        <h4 className="font-semibold text-gray-900">Garantía de Satisfacción</h4>
-        <p className="text-sm text-gray-600">
-          Si no estás satisfecho, te devolvemos el dinero. Sin preguntas.
-        </p>
+        <h4 className="font-semibold text-gray-900">{guarantee.title}</h4>
+        <p className="text-sm text-gray-600">{guarantee.description}</p>
       </div>
     </div>
   );
