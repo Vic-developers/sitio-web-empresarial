@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { footerNavigation } from "@/data/navigation";
-import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, Youtube, Music2 } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Linkedin, Facebook, Youtube, Music2, ArrowRight, CheckCircle } from "lucide-react";
 import { Logo } from "./Logo";
+import { Button } from "@/components/ui/Button";
 
 const socialLinks = [
   { icon: Instagram, href: "https://instagram.com/skillupsacademy", label: "Instagram" },
@@ -118,8 +119,37 @@ export function Footer() {
           </div>
         </div>
 
+        {/* CTA Section */}
+        <div className="mt-12 p-6 bg-gradient-to-r from-teal-600 to-teal-700 rounded-2xl">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div>
+              <h3 className="text-xl font-bold text-white mb-2">
+                ¿Listo para transformar tu organización?
+              </h3>
+              <p className="text-teal-100 mb-4 md:mb-0">
+                Solicita una propuesta personalizada sin costo. Respuesta en menos de 24 horas.
+              </p>
+              <div className="flex items-center gap-4 text-sm text-teal-100">
+                <span className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4" />
+                  Garantía de satisfacción
+                </span>
+                <span className="flex items-center gap-1">
+                  <CheckCircle className="w-4 h-4" />
+                  Resultados medibles
+                </span>
+              </div>
+            </div>
+            <Link href="/solicitar-propuesta" className="flex-shrink-0">
+              <Button variant="accent" size="lg" icon={<ArrowRight className="w-5 h-5" />} iconPosition="right">
+                Solicitar Propuesta
+              </Button>
+            </Link>
+          </div>
+        </div>
+
         {/* Bottom */}
-        <div className="mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="mt-12 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-slate-500 text-sm">
             © {new Date().getFullYear()} SkillUps Academy. Todos los derechos reservados.
           </p>
