@@ -4,6 +4,8 @@ import { ChatWidget } from "@/components/ui/ChatWidget";
 import { BackToTop } from "@/components/ui/BackToTop";
 import { ToastProvider } from "@/components/ui/Toast";
 import { UrgencyBanner } from "@/components/ui/SocialProof";
+import { ExitIntentPopup } from "@/components/ui/ExitIntentPopup";
+import { ProactiveChat } from "@/components/ui/ProactiveChat";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,6 +17,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Footer />
         <ChatWidget />
         <BackToTop />
+        <ExitIntentPopup />
+        <ProactiveChat />
       </div>
     </ToastProvider>
   );
