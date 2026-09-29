@@ -32,7 +32,7 @@ export const courses: Course[] = [
     date: "Marzo 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$1,200 MXN",
+    price: "RD$7,200",
     image: "/images/courses/power-bi.jpg",
     featured: true,
     objectives: [
@@ -80,7 +80,7 @@ export const courses: Course[] = [
     date: "Abril 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$1,500 MXN",
+    price: "RD$9,000",
     image: "/images/courses/marketing-digital.jpg",
     featured: true,
     objectives: [
@@ -124,7 +124,7 @@ export const courses: Course[] = [
     date: "Mayo 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$4,500 MXN",
+    price: "RD$27,000",
     image: "/images/courses/fullstack.jpg",
     featured: true,
     objectives: [
@@ -174,7 +174,7 @@ export const courses: Course[] = [
     date: "Marzo 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$1,800 MXN",
+    price: "RD$10,800",
     image: "/images/courses/liderazgo.jpg",
     featured: false,
     objectives: [
@@ -214,7 +214,7 @@ export const courses: Course[] = [
     date: "Disponible ahora",
     instructor: "Por definir",
     certification: true,
-    price: "$800 MXN",
+    price: "RD$4,800",
     image: "/images/courses/excel.jpg",
     featured: false,
     objectives: [
@@ -254,7 +254,7 @@ export const courses: Course[] = [
     date: "Abril 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$600 MXN",
+    price: "RD$3,600",
     image: "/images/courses/canva.jpg",
     featured: false,
     objectives: [
@@ -294,7 +294,7 @@ export const courses: Course[] = [
     date: "Mayo 2026",
     instructor: "Por definir",
     certification: true,
-    price: "$1,600 MXN",
+    price: "RD$9,600",
     image: "/images/courses/rrhh.jpg",
     featured: false,
     objectives: [
@@ -334,7 +334,7 @@ export const courses: Course[] = [
     date: "Disponible ahora",
     instructor: "Por definir",
     certification: true,
-    price: "$900 MXN",
+    price: "RD$5,400",
     image: "/images/courses/contabilidad.jpg",
     featured: false,
     objectives: [

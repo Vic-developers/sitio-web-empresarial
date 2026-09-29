@@ -30,7 +30,7 @@ const DashboardPreview = forwardRef<HTMLDivElement, DashboardPreviewProps>(
           <div className="grid grid-cols-3 gap-4 mb-6">
             {[
               { label: "Usuarios", value: "12,345", change: "+12%" },
-              { label: "Ingresos", value: "$45,678", change: "+8%" },
+              { label: "Ingresos", value: "RD$45,678", change: "+8%" },
               { label: "Conversión", value: "3.2%", change: "+0.5%" },
             ].map((stat, index) => (
               <div key={index} className="rounded-lg bg-slate-50 p-4">

@@ -206,11 +206,11 @@ export function ProposalForm() {
                 </label>
                 <select className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:border-teal-500 focus:ring-2 focus:ring-teal-500/20 focus:outline-none transition-all bg-white">
                   <option value="">Seleccionar rango</option>
-                  <option value="5k-10k">$5,000 - $10,000 MXN</option>
-                  <option value="10k-25k">$10,000 - $25,000 MXN</option>
-                  <option value="25k-50k">$25,000 - $50,000 MXN</option>
-                  <option value="50k-100k">$50,000 - $100,000 MXN</option>
-                  <option value="100k+">$100,000+ MXN</option>
+                  <option value="5k-10k">RD$5,000 - RD$10,000</option>
+                  <option value="10k-25k">RD$10,000 - RD$25,000</option>
+                  <option value="25k-50k">RD$25,000 - RD$50,000</option>
+                  <option value="50k-100k">RD$50,000 - RD$100,000</option>
+                  <option value="100k+">RD$100,000+</option>
                 </select>
               </div>
               <div>
