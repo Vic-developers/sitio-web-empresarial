@@ -11,7 +11,7 @@ import { AnimatedStats } from "@/components/ui/AnimatedStats";
 import { WhySkillUps } from "@/components/ui/WhySkillUps";
 import { Accordion } from "@/components/ui/Accordion";
 import { Newsletter } from "@/components/ui/Newsletter";
-import { SocialProof, UrgencyBanner, GuaranteeBadge, SpotsCounter } from "@/components/ui/SocialProof";
+import { GuaranteeBadge, SpotsCounter } from "@/components/ui/SocialProof";
 
 const universes = [
   {

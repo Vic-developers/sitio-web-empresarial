@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { HTMLAttributes, forwardRef } from "react";
+import Image from "next/image";
 
 export interface TestimonialProps extends HTMLAttributes<HTMLDivElement> {
   quote: string;
@@ -37,10 +38,13 @@ const Testimonial = forwardRef<HTMLDivElement, TestimonialProps>(
         </blockquote>
         <div className="flex items-center gap-4">
           {image ? (
-            <img
+            <Image
               src={image}
               alt={author}
-              className="w-12 h-12 rounded-full object-cover"
+              width={48}
+              height={48}
+              className="rounded-full object-cover"
+              unoptimized
             />
           ) : (
             <div className="w-12 h-12 rounded-full bg-teal-100 flex items-center justify-center text-teal-600 font-bold">

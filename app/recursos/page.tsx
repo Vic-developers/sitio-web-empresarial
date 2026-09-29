@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
 import { Section } from "@/components/ui/Section";
-import { SectionHeader } from "@/components/ui/SectionHeader";
 import { Card } from "@/components/ui/Card";
 import { Container } from "@/components/ui/Container";
 import { Badge } from "@/components/ui/Badge";
 import { Breadcrumb } from "@/components/ui/Breadcrumb";
-import { FileText, Video, Download, BookOpen } from "lucide-react";
+import { FileText, Video, Download } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Recursos | SkillUps Academy",
